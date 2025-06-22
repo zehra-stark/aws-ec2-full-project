@@ -15,17 +15,6 @@ Here are snapshots of the **Week 1 EC2-hosted Quiz Web App**:
 
 ---
 
-## 🌐 Live Project URL (Week 1 Deployment)
-
-> Replace the placeholder with your actual EC2 public IP:
-
-**http://<your-ec2-public-ip>**
-
----
-
-
----
-
 ## ✅ Week-by-Week Progress
 
 ### ✅ Week 1 – Web App on EC2
