@@ -15,6 +15,17 @@ Here are snapshots of the **Week 1 EC2-hosted Quiz Web App**:
 
 ---
 
+## 📚 Project Documentation
+
+Below are step-by-step documentation files for each mini project in this EC2 journey.  
+These files include clear instructions, explanations, and guidance for completing the hands-on labs.  
+If you're following along or revisiting for revision, these docs will serve as your lab companion and practical reference.
+
+- [Mini Project 01 – Week 1: EC2 Basics & Web Server Quiz](./docs/mini-project-01.txt)
+- [Mini Project 02 – Week 2: EBS, Snapshots & Security](./docs/mini-project-02.txt)
+
+---
+
 ## ✅ Week-by-Week Progress
 
 ### ✅ Week 1 – Web App on EC2
