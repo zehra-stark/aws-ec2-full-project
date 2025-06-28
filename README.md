@@ -15,15 +15,6 @@ Here are snapshots of the **Week 1 EC2-hosted Quiz Web App**:
 
 ---
 
-## 📚 Project Documentation
-
-These documents guide you through each week's EC2 hands-on mini projects:
-
-- [Mini Project 01 – Week 1: EC2 Basics & Web Server Quiz](docs/mini-project-01.docx)
-- [Mini Project 02 – Week 2: EBS, Snapshots & Security](docs/mini-project-02.docx)
-
----
-
 ## ✅ Week-by-Week Progress
 
 ### ✅ Week 1 – Web App on EC2
