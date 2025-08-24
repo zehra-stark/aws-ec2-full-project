@@ -106,8 +106,6 @@ Here are snapshots of the **Week 1 EC2-hosted Quiz Web App**:
 
 ---
 
-Stay tuned — Week 3 and Week 4 updates are coming soon!
-
 If you liked this project, feel free to ⭐ star the repo and share!
 
 
