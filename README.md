@@ -17,42 +17,63 @@ Here are snapshots of the **Week 1 EC2-hosted Quiz Web App**:
 
 ## ✅ Week-by-Week Progress
 
-### ✅ Week 1 – Web App on EC2
+## ✅ Week 1 – Web App on EC2
+- Launched an **Amazon Linux 2 EC2 instance**
+- Installed **Apache HTTP Server**
+- Created and deployed a simple **EC2 quiz web app** using HTML, CSS, and JS  
 
-- Launched an Amazon Linux 2 EC2 instance
-- Installed Apache HTTP Server
-- Created and deployed a simple EC2 quiz web app using HTML, CSS, and JS
-- **Concepts Covered:**
-  - What is EC2? (History, meaning, real-world examples)
-  - Use cases: websites, applications, APIs, batch processing, etc.
-  - EC2 instance types and pricing models
-  - How to connect using SSH
-  - Hands-on with Amazon Linux 2 and Ubuntu instances
+**Concepts Covered:**
+- What is EC2? (History, meaning, real-world examples)
+- Use cases: websites, applications, APIs, batch processing, etc.
+- EC2 instance types and pricing models
+- How to connect using SSH
+- Hands-on with Amazon Linux 2 and Ubuntu instances  
 
-### ✅ Week 2 – EBS, AMIs, and Security
+---
 
+## ✅ Week 2 – EBS, AMIs, and Security
 - Created, attached, and managed **EBS volumes**
 - Created and restored **EC2 Snapshots**
-- Created **Custom AMIs** for backups and reuse
-- Learned about:
-  - Key pairs and secure authentication
-  - Security Groups vs NACLs
-  - IAM roles and policies (intro only)
-- Hands-on integration with Week 1 web app for secure access and backup
+- Created **Custom AMIs** for backups and reuse  
 
-### ⏳ Week 3 – Load Balancing and Auto Scaling (In Progress)
+**Learned about:**
+- Key pairs and secure authentication
+- **Security Groups vs NACLs**
+- IAM roles and policies (intro only)
+- Hands-on integration with Week 1 web app for **secure access and backup**
 
-- Deploy multiple EC2 instances behind an Application Load Balancer
-- Create Auto Scaling Groups with Launch Templates
-- Set scaling based on CloudWatch CPU metrics
+---
 
-### ⏳ Week 4 – Monitoring, Automation, and Full Deployment (In Progress)
+## ✅ Week 3 – Load Balancing and Auto Scaling
+- **Deployed multiple EC2 instances** behind an **Application Load Balancer (ALB)** to evenly distribute traffic  
+- Created **Launch Templates** for EC2 instances to ensure consistent configurations  
+- Configured an **Auto Scaling Group (ASG)** to automatically add/remove EC2 instances based on demand  
+- Set scaling policies based on **CloudWatch CPU utilization metrics** for dynamic resource allocation  
+- Integrated with Week 1 quiz web app for **high availability and fault tolerance**  
 
-- Configure **CloudWatch dashboards and alarms**
-- Automate using **User Data scripts**
-- Understand EC2 Image Builder
-- Compare Spot, On-Demand, and Reserved instances
-- Final project: Deploy a **multi-instance**, **secured**, **auto-scaled**, **monitored** EC2 setup
+**Concepts Covered:**
+- Elastic Load Balancer (ELB) vs Application Load Balancer (ALB) vs Network Load Balancer (NLB)  
+- Health checks and traffic distribution  
+- Launch Templates vs Launch Configurations  
+- Auto Scaling Groups and scaling policies  
+- CloudWatch alarms for scaling triggers  
+
+---
+
+## ✅ Week 4 – Monitoring, Automation, and Full Deployment
+- Configured **CloudWatch Dashboards** to monitor CPU, memory, and network utilization  
+- Set up **CloudWatch Alarms** for proactive alerts and notifications  
+- Automated EC2 configuration using **User Data scripts** for installing Apache and deploying the quiz app on boot  
+- Explored **EC2 Image Builder** to automate AMI creation  
+- Compared **EC2 pricing models** (On-Demand, Reserved, Spot) and identified cost-optimization strategies  
+- **Final Project:** Deployed a **multi-instance, secured, auto-scaled, and monitored EC2 setup** with high availability and resilience  
+
+**Concepts Covered:**
+- CloudWatch metrics, alarms, and dashboards  
+- User Data and EC2 bootstrapping automation  
+- EC2 Image Builder basics  
+- Cost optimization strategies (Reserved, Spot, Savings Plans)  
+- Bringing everything together into a **production-ready EC2 architecture**  
 
 ---
 
